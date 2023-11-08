@@ -1,14 +1,13 @@
 import { useState } from 'react'
-import CartItem from './Components/CartItem'
-
+// import CartItem from './Components/CartItem'
 
 function App() {
   
 
   return (
     <>
-     
-     <CartItem/>
+      <h1>hello from app.jsx</h1>
+     {/* <CartItem/> */}
     </>
   )
 }

@@ -1,15 +1,20 @@
 
 import './App.css'
-import BgChanger from './Components/BgChanger'
+
+// import BgChanger from './Components/BgChanger'
+// import PassWord from './Components/PassWord'
 
 function App() {
   
 
   return (
-    <>
-        <BgChanger/>
     
-    </>
+        <div >
+        {/* <PassWord/> */}
+        
+        {/* <BgChanger/> */}
+        
+        </div>
   )
 }
 
