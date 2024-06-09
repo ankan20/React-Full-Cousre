@@ -24,3 +24,14 @@
 .action-icons:hover{
   cursor: pointer;
 }
+
+button {
+  background-color: black;
+  border-radius: 10%;
+  min-width: 50px;
+  min-height: 30px;
+  color: white;
+  padding: 4px;
+  margin: 5px;
+  cursor: pointer;
+}
