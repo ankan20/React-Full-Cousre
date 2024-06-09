@@ -13,15 +13,21 @@ const Login = () => {
   return (
     <div>
       <h2>Login</h2>
-      <input type="text" 
+      <input
+      className="inpt_box"
+      type="text" 
       value={username}
       onChange={(e)=>setUsername(e.target.value)}
       placeholder='username' />
-      <input type="text"
+      <input 
+      className="inpt_box"
+      type="password"
       value={password}
       onChange={(e)=>setPassword(e.target.value)}
-      placeholder='password' />
-      <button onClick={handleSubmit}>Submit</button>
+      placeholder='password' 
+      />
+      <button className="btn_sb"  onClick={handleSubmit}>Submit</button>
+      
     </div>
   )
 }
