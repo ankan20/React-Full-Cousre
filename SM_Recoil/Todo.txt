@@ -1,0 +1,5 @@
+2 input boxes (title , description) => atom
+button
+todos => atom
+filter(gym) => atom
+selector (the current set of todos)
