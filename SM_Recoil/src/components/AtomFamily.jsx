@@ -6,8 +6,8 @@ const AtomFamily = () => {
   return (
     <div>
       <RecoilRoot>
-        <Todo id={1} />
-        <Todo id={2} />
+        <Todo id={10} />
+        <Todo id={22} />
         <Todo id={3} />
         <Todo id={2} />
         <Todo id={2} />
